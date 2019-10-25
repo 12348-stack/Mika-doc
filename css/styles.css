@@ -1,0 +1,27 @@
+body{
+    background-image: url("/images/city-dark-dawn-248159.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.home {
+    width: 40%;
+    text-align: justify;
+    align-items: center;
+    margin: 0 auto;
+    color: rgb(247, 243, 238);
+}
+.form {
+    width: 90%;
+    align-items: center;
+    color: cornsilk;
+    display: block;
+}
+h1 {
+    width: 90%
+    color; 
+}

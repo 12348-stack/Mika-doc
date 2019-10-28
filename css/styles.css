@@ -7,8 +7,9 @@ body{
     align-items: center;
     align-content: center;
     text-align: center;
+    color: white;
 }
-.home {
+/* .home {
     width: 40%;
     text-align: justify;
     align-items: center;
@@ -24,4 +25,15 @@ body{
 h1 {
     width: 90%
     color; 
+} */
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #b2fcff;
+    padding: 30px;
+}
+
+.row p{
+    font-size: 20px;
+    background-blend-mode: lighten;
 }

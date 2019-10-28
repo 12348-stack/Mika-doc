@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <h1>
-        AKAN NAMES
-    </h1>
-        <div class="home"> 
-                <p>
-                    This website is more likely to give you information on the age,number and gender of certin individuals.It would collect data and is very efficient in terms of what it uses and how it is collecting the informatin that is presented to the user.
+<html>
+    <head>
+        <title>AKAN NAMES</title>
+        <link rel="stylesheet" type="text" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <div class ="container">
+            <div class="jumbotron">
+                <h1>GHANANIAN NAMING CULTURE</h1>
+                <p> The Akan people of Ghana frequently name thier children after the day 
+                    of week they were born and the order in which they were born .These 
+                    "day names" have further meaning concerning the soul and character of 
+                    the person .Middle names have considerably more variety and can refer to thier 
+                    birth order,twins status, or an ancestor's middle name.
                 </p>
-                <div class="upender"
+            </div>
         </div>
-    <div class="form">
-    Date<input type="number" name="day" id="date" min="1" max="30" required > 
-    Month<input type="number" name="monthofbirth" id="month" min="1" max="12" required >
-    Year<input type="number" name="yearofbirth" id="year"min="1900" max=2019>
-    <input type= "radio"name="Gender" value="Male">Male
-    <input type= "radio"name="Gender" value="Female">Female
-    <input type="button" value="submit">
-    </div>
-</body>
+        <form>
+            <label>DAY</label>
+            <input type="text" id ="day"><br>
+            <br><label>MONTH</label>
+            <input type ="text"  id="month" ><br>
+            <br><label>YEAR</label>
+            <input type="text" id ="year"><br>
+            <br><label>GENDER</label>
+            <input type="radio" name="gender"  value="male">Male
+            <input type="radio" name ="gender"  value="Female">Female<br>
+            <input type="submit" name="submit" value ="Submit" onclick="checkgender()">
+        </form> 
+<script src="js/script.js"></script>
+    </body>
 </html>

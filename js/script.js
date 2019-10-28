@@ -6,7 +6,13 @@ var akanMale = ['Kwasi',
   'Kofi',
   'Kwame'];
 
-var akanFemale = ['Akosua','Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
+var akanFemale = ['Akosua',
+'Adwoa', 
+'Abenaa', 
+'Akua', 
+'Yaa', 
+'Afua', 
+'Ama'];
 var dayOfTheWeek =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 function checkgender() {
     var month =parseInt(document.getElementById("month").value);

@@ -1,5 +1,5 @@
 body{
-    background-image: url("/images/city-dark-dawn-248159.jpg");
+    background-image: url("https://bit.ly/2Wkrwek");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -7,10 +7,10 @@ body{
     align-items: center;
     align-content: center;
     text-align: center;
-    color: white;
+    color:white;
 }
 p{
-    font-size: 30 px;
+    font-size: 40px;
     font-weight: bold;
 }
 /* .home {

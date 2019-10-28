@@ -2,6 +2,8 @@
  - AKAN NAME
 ## Authors Name
 - EDMUND NDOLO
+## Description
+This project provides a platform for the user tonget an Akan-name after entering the correct birth information
 ## Technology Used
 - HTML
 - CSS
@@ -15,6 +17,8 @@
 
 -launch the index.html file.
 ## BDD
+
+ <img src="images/akan.jpg" alt="picture">
 
 ## GitHub Link
 
